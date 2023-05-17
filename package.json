@@ -1,0 +1,29 @@
+{
+  "name": "y-watermark",
+  "version": "1.0.0",
+  "description": "水印",
+  "main": "dist/y-watermark.min.js",
+  "scripts": {
+    "build": "babel -o dist/y-watermark.min.js -s --plugins @babel/plugin-transform-modules-umd --presets minify index.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yaozoo/y-watermark.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yaozoo/y-watermark/issues"
+  },
+  "homepage": "https://github.com/yaozoo/y-watermark#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.1.0",
+    "@babel/core": "^7.1.0",
+    "@babel/plugin-transform-modules-umd": "^7.1.0",
+    "babel-preset-minify": "^0.4.3"
+  },  
+  "files": [
+    "dist/y-watermark.min.js"
+  ]
+}
