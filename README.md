@@ -1,7 +1,7 @@
 <!--
  * @Author: 鲁遥
  * @Date: 2021-03-30 17:22:31
- * @LastEditTime: 2023-05-17 14:17:31
+ * @LastEditTime: 2023-05-17 14:21:26
  * @LastEditors: luyao
  * @Description:
  * @FilePath: /y-watermark/README.md
@@ -16,7 +16,7 @@
 ### install
 
 ```
-npm install watermark-dfs
+npm install y-watermark
 ```
 
 ### 使用
